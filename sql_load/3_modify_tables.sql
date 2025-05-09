@@ -40,8 +40,3 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 COPY skills_job_dim
 FROM '/Applications/Personal Projects/SQL_Project/csv_files/skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
-
-
-SELECT *
-FROM job_postings_fact
-LIMIT 100; 
